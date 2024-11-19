@@ -12,3 +12,6 @@
 
 **Propellers: DAL Nepal N1 51435** 
 [https://rcmaniak.pl/pl/p/Smigla-DAL-Nepal-N1-51435-Dwie-Pary-CW-CCW/4305  ](https://rcmaniak.pl/pl/p/Smigla-DAL-Nepal-N1-51435-Dwie-Pary-CW-CCW/4305)
+
+**Wi-Fi Module: ESP32 WiFi + BT 4.2 Platform**
+[https://botland.com.pl/moduly-wifi-i-bt-esp32/8893-esp32-wifi-bt-42-platforma-z-modulem-esp-wroom-32-zgodny-z-esp32-devkit-5904422337438.html](https://botland.com.pl/moduly-wifi-i-bt-esp32/8893-esp32-wifi-bt-42-platforma-z-modulem-esp-wroom-32-zgodny-z-esp32-devkit-5904422337438.html)
