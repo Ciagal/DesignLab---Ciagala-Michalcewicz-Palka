@@ -15,13 +15,22 @@ November 2024:
         Assembling the components - MC, PM, HP
         Upgrading the drone control application - MC
   11th - 17th :
-        Screwing components - HP
-        Soldering components - PM
+        Screwing the components - HP
+        Soldering the components - PM
         Creating step by step manual for SpeedyBee platfrom (how we used the platform) - MC, HP, PM
   18th - 24th :
-        Creating step by step manual for SpeedyBee platfrom (how we used the platform) - MC, HP, PM
+        Creating a step by step manual for SpeedyBee platfrom (how we used the platform) - MC, HP, PM
         Connecting components with the frame - HP, PM
         GitHub maintenance - MC
+
+  25th - December 1st:
+        Soldering the ESP WiFi module with the platform - PM
+        Connecting and configuring the ESP WiFi module - HP
+        
+
+December 2024:
+  2nd - 8th:
+      
 
 
 LEGEND (Who has done what):
