@@ -1,0 +1,6 @@
+com.example.dronecontrolappv2.test.app-core-1.5.0-0 C:\Users\pmich\.gradle\caches\transforms-4\2e9346735fe1770b5d5eae5f63204da6\transformed\core-1.5.0\res
+com.example.dronecontrolappv2.test.app-annotation-experimental-1.3.0-1 C:\Users\pmich\.gradle\caches\transforms-4\6513cbae02cea506eb2f8c021a9b2c9b\transformed\annotation-experimental-1.3.0\res
+com.example.dronecontrolappv2.test.app-androidTest-2 C:\Users\pmich\AndroidStudioProjects\DroneControlAppv2\app\build\generated\res\resValues\androidTest\debug
+com.example.dronecontrolappv2.test.app-mergeDebugAndroidTestResources-3 C:\Users\pmich\AndroidStudioProjects\DroneControlAppv2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.dronecontrolappv2.test.app-mergeDebugAndroidTestResources-4 C:\Users\pmich\AndroidStudioProjects\DroneControlAppv2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.dronecontrolappv2.test.app-debugAndroidTest-5 C:\Users\pmich\AndroidStudioProjects\DroneControlAppv2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
