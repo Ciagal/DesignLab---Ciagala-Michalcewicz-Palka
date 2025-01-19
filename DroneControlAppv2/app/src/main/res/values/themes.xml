@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Główny styl aplikacji -->
+    <style name="Theme.DroneControlAppv2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Inne ustawienia stylu -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+
+        <!-- Przykład wymuszenia trybu akcji, jeśli potrzebujesz -->
+        <!-- <item name="android:actionBarStyle">@style/MyActionBarStyle</item> -->
+    </style>
+</resources>

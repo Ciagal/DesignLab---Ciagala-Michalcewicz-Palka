@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:splitMotionEvents="true">  <!-- KLUCZOWE! -->
+
+    <!-- ARM Button u góry, wyśrodkowany -->
+    <Button
+        android:id="@+id/btnArm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_arm"
+        android:textSize="16sp" />
+
+    <!-- DISARM Button poniżej ARM -->
+    <Button
+        android:id="@+id/btnDisarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnArm"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_disarm"
+        android:textSize="16sp" />
+
+    <!-- STOP Button poniżej DISARM -->
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnDisarm"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_stop"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white" />
+
+    <!-- Status ARM/DISARM -->
+    <TextView
+        android:id="@+id/tvArmDisarmStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnStop"
+        android:layout_marginTop="20dp"
+        android:text="@string/status_na"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <!-- Etykieta "GAS" nad obszarem sterowania gazem -->
+    <TextView
+        android:id="@+id/tvGasLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/throttleControl"
+        android:layout_above="@+id/throttleControl"
+        android:layout_marginBottom="4dp"
+        android:text="@string/gas_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Obszar sterowania Throttle -->
+    <RelativeLayout
+        android:id="@+id/throttleControl"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/darker_gray">
+
+        <!-- Suwak Throttle (kropka na dole) -->
+        <View
+            android:id="@+id/centerDot"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/black" />
+    </RelativeLayout>
+
+    <!-- Dynamiczna wartość Throttle -->
+    <TextView
+        android:id="@+id/tvGasValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/throttleControl"
+        android:layout_alignBottom="@id/throttleControl"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/gas_value"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <!-- Etykieta "POSITION" nad obszarem joysticka -->
+    <TextView
+        android:id="@+id/tvPositionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/joystickControl"
+        android:layout_above="@+id/joystickControl"
+        android:layout_marginBottom="4dp"
+        android:text="@string/position_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Obszar sterowania Joystickiem (Roll/Pitch) -->
+    <RelativeLayout
+        android:id="@+id/joystickControl"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/darker_gray">
+
+        <!-- Joystick Dot -->
+        <View
+            android:id="@+id/joystickDot"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/black" />
+    </RelativeLayout>
+
+    <!-- Dynamiczna wartość Roll/Pitch -->
+    <TextView
+        android:id="@+id/tvJoystickValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/joystickControl"
+        android:layout_alignBottom="@id/joystickControl"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/joystick_values"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">DroneControlAppv2</string>
+
+    <!-- Button Labels -->
+    <string name="btn_arm">ARM</string>
+    <string name="btn_disarm">DISARM</string>
+    <string name="btn_stop">STOP</string>
+
+    <!-- Status Messages -->
+    <string name="status_na">Status: N/A</string>
+    <string name="status_armed">Status: ARMED</string>
+    <string name="status_disarmed">Status: DISARMED</string>
+    <string name="status_emergency_stop">Status: Emergency STOP!</string>
+
+    <!-- Labels for Indicators -->
+    <string name="gas_label">Throttle</string>
+    <string name="position_label">Position</string>
+
+    <!-- Dynamic Value Strings with Placeholders -->
+    <!-- %1$d = pierwszy parametr liczbowy (int) -->
+    <string name="gas_value">Throttle: %1$d</string>
+    <!-- %1$d = Roll, %2$d = Pitch -->
+    <string name="joystick_values">Roll: %1$d, Pitch: %2$d</string>
+
+    <!-- Network Messages -->
+    <!-- Używaj getString(R.string.network_error, e.message) w razie błędu -->
+    <string name="network_error">Network error: %1$s</string>
+    <string name="command_sent">Command sent: %1$s</string>
+
+    <!-- UI Messages -->
+    <string name="emergency_stop">Emergency STOP triggered!</string>
+    <string name="waiting_for_connection">Waiting for connection...</string>
+    <string name="connected_to_esp32">Connected to ESP32</string>
+    <string name="disconnected_from_esp32">Disconnected from ESP32</string>
+</resources>
